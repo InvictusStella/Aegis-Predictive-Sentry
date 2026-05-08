@@ -3,7 +3,7 @@
 > An automated, predictive target-tracking sentry using ESP32 and IoT analytics.
 
 ## **1. Project Overview**
-The **Aegis Predictive Sentry System** is an automated target tracking project based on the ESP32. It uses three outward-facing PIR sensors to detect broad motion events (Front=0°, Right=90°, Left=270°). When motion is registered, the sentry aims a motor-mounted Time-of-Flight (ToF) distance sensor towards the trigger zone. Once localized, the sentry engages its tracking logic, calculating linear velocity and tracking targets predictively.
+The **Aegis Predictive Sentry System** is an automated target tracking project based on the ESP32. It uses three outward-facing PIR sensors to detect broad motion events (Front=0°, Right=120°, Left=360°). When motion is registered, the sentry aims a motor-mounted Time-of-Flight (ToF) distance sensor towards the trigger zone. Once localized, the sentry engages its tracking logic, calculating linear velocity and tracking targets predictively.
 
 Locally, visual feedback is displayed on an onboard radar-like OLED screen. Simultaneously, telemetry and tracking metrics are synchronized to the **Arduino Cloud**, allowing remote monitoring of target velocity, hit ratios, and sweeping angles.
 
