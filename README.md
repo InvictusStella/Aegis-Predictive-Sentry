@@ -47,6 +47,8 @@ This project was built and designed exclusively inside the **Arduino IoT Cloud**
 * **`cloudFalsePos`** *(Integer)*: Tracks the number of unverified alarms.
 * **`cloudFPRatio`** *(Float)*: The ratio comparing actual targets vs false positive sweeps.
 
+<img width="1727" height="812" alt="resim" src="https://github.com/user-attachments/assets/eaea7ad0-0746-4f5c-afbc-7af4072f0e07" />
+
 ---
 
 ## **6. How to Use**
