@@ -32,6 +32,9 @@ Locally, visual feedback is displayed on an onboard radar-like OLED screen. Simu
 ## **4. System Architecture**
 The system architecture revolves around an event-driven loop on the ESP32. Three PIR sensors monitor distinct zones. When a PIR triggers, the system commands the 28BYJ-48 Stepper Motor to rotate the VL53L0X ToF sensor to the active zone. It then scans for accurate distance and calculates the target's linear velocity in millimeters per second. This data allows the ESP32 to predict target movement and aim accordingly. Local status is shown on the SSD1306 OLED, while metrics are pushed continuously to the Arduino IoT Cloud via Wi-Fi.
 
+<img width="659" height="505" alt="resim" src="https://github.com/user-attachments/assets/d1a55670-8c00-4efa-a8d8-5592e09825d3" />
+
+
 ---
 
 ## **5. Dashboard & Analytics**
