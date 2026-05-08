@@ -22,7 +22,7 @@ Locally, visual feedback is displayed on an onboard radar-like OLED screen. Simu
 | Component | Model | Task |
 | :--- | :--- | :--- |
 | **Microcontroller** | ESP32 | Central coordination, IoT cloud sync, and sensor logic. |
-| **Motion Sensor** | 3x HC-SR501 PIR | Detects broad motion events across three zones (0°, 90°, 270°). |
+| **Motion Sensor** | 3x HC-SR501 PIR | Detects broad motion events across three zones (0°, 120°, 360°). |
 | **Distance Sensor** | VL53L0X ToF | Pinpoints precise ranging and distance calculation. |
 | **Actuator**| 28BYJ-48 Stepper + ULN2003 | Rotates the ToF sensor toward the triggered zone. |
 | **Display** | SSD1306 128x64 OLED | Renders real-time radar-like tracking visuals locally. |
