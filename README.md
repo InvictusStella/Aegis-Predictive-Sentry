@@ -10,7 +10,7 @@ Locally, visual feedback is displayed on an onboard radar-like OLED screen. Simu
 ---
 
 ## **2. Key Features**
-* **360-Degree Motion Detection:** Uses three PIR sensors covering 0°, 90°, and 270° for broad event triggers.
+* **360-Degree Motion Detection:** Uses three PIR sensors covering 0°, 120°, and 360° for broad event triggers.
 * **Precision Pinpointing:** Utilizes a Time-of-Flight (ToF) sensor to calculate exact distance and localization.
 * **Predictive Tracking:** Calculates linear velocity and dynamically tracks moving targets predictively.
 * **Real-time Radar Feedback:** Displays localized visual readouts on an onboard OLED screen.
